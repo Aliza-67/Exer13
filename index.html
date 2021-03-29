@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <title>University of the Cordilleras</title>
+<style>
+.header{
+    width: 1400px;
+    height: 120px;
+    background: rgb(127, 243, 104);
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgreen;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.search-box{
+ position: absolute;
+ top: 5%;
+ left: 86%;
+ transform: translate(-5%, -0%);
+ background: #2f3640;
+ height: 19px;
+ border-radius: 20px;
+ padding: 5px;
+}
+
+.search-box:hover > .search-txt {
+ width: 150px;
+ padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+ background: white;
+}
+
+.search-btn {
+ color: lightgreen;
+ float: right;
+ width: 20px;
+ height: 19px;
+ border-radius: 50%;
+ background: #2f3640;
+ display: contents;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+}
+
+.search-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 12px;
+ transition: 0.4s;
+ line-height: 20px;
+ width: 0px;
+ font-weight: bold;
+}
+.facebook{
+ position: absolute;
+ top: 5%;
+ left: 83%;
+ background: #2f3640;
+ height: 19px;
+ border-radius: 20px;
+ padding: 6px; 
+}
+.fb{
+ color: lightgreen;
+ float: right;
+ width: 20px;
+ height: 19px;
+ border-radius: 60%;
+ background: #2f3640;
+ display: contents;
+ justify-content: center;
+ align-items: center;
+}
+.lo{
+ position: absolute;
+ top: 10%;
+ left: 10%;
+ height: 19px;
+ border-radius: 20px;
+ padding: 6px; 
+}
+.logo{
+width: 15px;
+height: 25px;
+display: contents;
+padding: 10px;
+border-radius: 6px;
+margin-left: -10px;
+float: right;
+}
+.column{
+position: absolute;
+top: 15%;
+left: 75%;
+height: 19px;
+border-radius: 20px;
+padding: 6px; 
+}
+.table{
+width: 75px;
+height: 100px;
+display: contents;
+padding: 30px;
+border-radius: 8px;
+margin-left: -10px;
+float: right;
+}
+.main-pic{
+width: 1200px;
+height: 400px;
+background: rgb(238, 243, 237);
+margin-left: 65px;
+padding: 0px;  
+}
+.news-events{
+width: 900px;
+height: 330px;
+background: rgb(238, 243, 237);
+margin-left: 65px;
+margin-top: 50px;
+padding: 10px;  
+}
+.nav{
+width: 250px;
+height: 250px;
+background: rgb(238, 243, 237);
+margin-top: 50px;
+margin-left: 10px;
+padding: 10px;  
+} 
+.container{
+background-color: lightgreen;
+display: flex;
+flex-wrap: nowrap;
+}
+.aca{
+width: 900px;
+height: 270px;
+background: rgb(238, 243, 237);
+margin-left: 65px;
+margin-top: 8px;
+padding: 10px;  
+}
+.calendar{
+width: 257px;
+height: 357px;
+background: rgb(238, 243, 237);
+position: absolute;
+top: 144%;
+left: 74.5%;
+padding: 5px;
+}
+.container1{
+background-color: lightgreen;
+flex-wrap: nowrap;
+}
+.com{
+width: 365px;
+height: 180px;
+background: rgb(238, 243, 237);
+margin-top: 10px;
+margin-left: 70px;
+margin-right: 10px;
+padding: 5px;
+}
+.ath{
+width: 365px;
+height: 180px;
+background: rgb(238, 243, 237);
+position: absolute;
+top: 239%;
+right: 66.5%;
+padding: 5px;
+}
+.gal{
+width: 400px;
+height: 375px;
+background: rgb(238, 243, 237);
+margin-top: 10px;
+margin-left: 22px;
+padding: 5px;
+}
+.blg{
+width: 360px;
+height: 375px;
+background: rgb(238, 243, 237);
+margin-top: 10px;
+margin-left: 10px;
+padding: 5px;
+}
+</style>
+</head>
+<body>
+
+    <div class="header">
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Search">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <div class="facebook">
+                <a class="fb" href="#">
+                <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+    </div>
+    <div class="lo">
+        <div class="logo"> 
+            <img src="images/shs.jpg" width="110px" height="125px">
+        </div>
+    </div>
+    <div class="column">
+        <div class="table">
+            <tr>
+                <th>About</th>
+                &nbsp;&nbsp;
+                <th>Contact</th>
+                &nbsp;&nbsp;
+                <th>Log-in</th>
+            </tr>
+        </div>
+    </div>
+    <div class="main-pic">
+        <img src="images/pic2.jpg" width="1200px" height="450px">
+    </div>
+    <br>
+    <div class="container">
+        <div class="news-events">
+            <h1>News and Events</h1>
+        </div>
+        <div class="nav">
+            <h1>Navigation</h1>
+            <p>Programs</p>
+            <p>Guidance</p>
+            <p>Admissions</p>
+            <p>FAQ</p>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="aca">
+            <h1>Academics</h1>
+        </div>
+        <div class="calendar">
+            <h1><center>Calendar</center></h1>
+    </div>
+    <div class="container">
+        <div class="com">
+            <h1><center>Community</center></h1>
+        </div>
+        <div class="gal">
+            <h1><center>Gallery</center></h1>
+        </div>
+        <div class="blg">
+            <h1><center>Blogs</center></h1>
+        </div>
+        </div>
+    </div>
+    <div class="ath">
+        <h1><center>Athletics</center></h1>
+    </div>
+
+</body>
+</html>
+    
